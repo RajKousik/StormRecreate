@@ -1,22 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"); /*sag-09 */
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&family=Poppins&display=swap');
 
-* {
-  /* font-family: "Mulish", sans-serif; */
+*
+{
   font-family: 'Noto Serif', serif;
     font-family: 'Poppins', sans-serif;
-  color: whitesmoke;
+  color: #F5F5F5;
 }
 
-body {
+body 
+{
   margin: 0;
   background-color: #101010;
   color: white;
-  /* font-family: "Montserrat", sans-serif; */
   font-family: 'Noto Serif', serif;
-font-family: 'Poppins', sans-serif;
-
+  font-family: 'Poppins', sans-serif;
 }
 
 .bar
@@ -30,15 +27,18 @@ flex-direction: column;
 }
 
 
-body::-webkit-scrollbar {
+body::-webkit-scrollbar
+ {
   display: none;
 }
 
-body::-webkit-scrollbar-track {
+body::-webkit-scrollbar-track 
+{
   background: transparent;
 }
 
-body::-webkit-scrollbar-thumb {
+body::-webkit-scrollbar-thumb 
+{
   background-color: whitesmoke;
   border-radius: 30px;
 }
